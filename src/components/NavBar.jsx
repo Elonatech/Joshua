@@ -10,7 +10,7 @@ import { IoMail } from "react-icons/io5";
 const NavBar = () => {
   return (
    
-      <div className="bg-gradient-to-r from-[#ef1821]  to-[#0274be] h-10 flex justify-between">
+      <div className="hidden sm:flex bg-gradient-to-r from-[#ef1821]  to-[#0274be] h-10  justify-between">
         <div className="column1 w-1/2 p-2">
           <div className="icons flex items-center gap-4 text-white ml-28">
             <TiSocialFacebook
@@ -46,3 +46,7 @@ const NavBar = () => {
 }
 
 export default NavBar
+
+
+
+
