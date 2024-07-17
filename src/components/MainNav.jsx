@@ -18,8 +18,8 @@ const MainNav = () => {
       <div className="flex items-center justify-between w-2/4 ">
         <div className="nav-section p-4 gap-2 mx-auto">
           <ul className="hidden lg:flex md:items-center ">
-            <li className="relative group flex justify between items-center space-x-4">
-              <span className="text-lg font-bold gap-2">Home</span>{" "}
+            <li className="relative group flex justify between items-center space-x-4 ">
+              <p className="text-lg hover:text-red-500 ">Home</p>{" "}
               <div className="dropdown-nav flex justify-between items-center">
                 <span>About us</span>
                 <RiArrowDropDownLine />{" "}
@@ -40,7 +40,6 @@ const MainNav = () => {
                 Get in touch{" "}
               </button>{" "}
             </li>
-
           </ul>
 
           <div onClick={toggle} className="lg:hidden">
@@ -65,7 +64,6 @@ const MainNav = () => {
           <div className="">
             <div className="w-full flex items-center justify-between">
               <input type="search" name="Search..." id="" />
-              
 
               <div
                 onClick={toggle}
@@ -74,7 +72,6 @@ const MainNav = () => {
                 <AiOutlineClose />
               </div>
             </div>
-           
           </div>
 
           <div className="">
@@ -85,12 +82,9 @@ const MainNav = () => {
               <li className="py-4 text-sm sm:text-2xl">Home</li>
               <li className="py-4 text-sm sm:text-2xl">Home</li>
               <li className="py-4 text-sm sm:text-2xl">Home</li>
-     
             </ul>
           </div>
-          <div className="flex items-center justify-around">
-           
-          </div>
+          <div className="flex items-center justify-around"></div>
         </div>
       </div>
     </div>

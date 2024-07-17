@@ -2,9 +2,12 @@ import MainNav from "./components/MainNav"
 import NavBar from "./components/NavBar"
 import Home from "./components/Home"
 import Aboutus from "./components/Aboutus"
-import Services from "./components/Services"
 import Industries from "./components/Industries"
 import Products from "./components/Products"
+import CaseStudies from "./components/CaseStudies"
+import Technology from "./components/Technology"
+import TopClients from "./components/TopClient"
+import Offer from "./components/Offer"
 
 function App() {
 
@@ -15,12 +18,12 @@ function App() {
       <Home />
       <Aboutus />
       <Industries />
-      <Services />
-      {/* 
-    
-    
-    
-    <Products/> */}
+      <Offer/>
+      <Products />
+      <CaseStudies/>
+      <Technology/>
+      <TopClients/>
+     
     </>
   );
 }

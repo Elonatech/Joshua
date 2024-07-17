@@ -6,7 +6,7 @@ import {IoMdPaperPlane} from "react-icons/io"
 
 const Aboutus = () => {
   return (
-    <div className="md:px-56 md:pt-54 p-4 ">
+    <div className="lg:px-64 lg:pt-54 p-4 ">
       <div className="md:flex md:items-center md:justify-between">
         <div className="w-full md:w-1/2 my-4 ">
           <h1 className="text-red-600 uppercase font-bold  ">
