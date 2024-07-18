@@ -1,14 +1,13 @@
-import React from 'react'
-import Logo from "../assets/logo.png"
+import React from "react";
+import Logo from "../assets/logo.png";
 import { RiArrowDropDownLine } from "react-icons/ri";
 import { FaSearch } from "react-icons/fa";
-import  { useState } from 'react'
-import {AiOutlineClose, AiOutlineMenu} from 'react-icons/ai'
-
+import { useState } from "react";
+import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 
 const MainNav = () => {
   const [menu, setMenu] = useState(false);
-  const toggle = () => setMenu(!menu);
+  const toggle = () => setMenu(true);
 
   return (
     <div className="flex  w-full h-[126.922px]">
@@ -42,8 +41,8 @@ const MainNav = () => {
             </li>
           </ul>
 
-          <div onClick={toggle} className="lg:hidden">
-            <AiOutlineMenu size={25} />
+          <div className="lg:hidden ml-40">
+            <AiOutlineMenu onClick={toggle} size={25} />
           </div>
         </div>
       </div>
@@ -65,11 +64,8 @@ const MainNav = () => {
             <div className="w-full flex items-center justify-between">
               <input type="search" name="Search..." id="" />
 
-              <div
-                onClick={toggle}
-                className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer"
-              >
-                <AiOutlineClose />
+              <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer ml-40">
+                <AiOutlineClose onClick={toggle} />
               </div>
             </div>
           </div>
@@ -78,7 +74,7 @@ const MainNav = () => {
             <ul className="py-3 flex flex-col">
               <li className="py-4 text-sm sm:text-2xl">Home</li>
               <li className="py-4 text-sm sm:text-2xl">About us</li>
-              <li className="py-4 text-sm sm:text-2xl">Home</li>
+              <li className="py-4 text-sm sm:text-2xl">Search</li>
               <li className="py-4 text-sm sm:text-2xl">Home</li>
               <li className="py-4 text-sm sm:text-2xl">Home</li>
               <li className="py-4 text-sm sm:text-2xl">Home</li>
@@ -89,9 +85,6 @@ const MainNav = () => {
       </div>
     </div>
   );
-}
+};
 
-export default MainNav
-
-
-
+export default MainNav;

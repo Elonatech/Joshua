@@ -1,4 +1,3 @@
-import MainNav from "./components/MainNav"
 import NavBar from "./components/NavBar"
 import Home from "./components/Home"
 import Aboutus from "./components/Aboutus"
@@ -8,13 +7,15 @@ import CaseStudies from "./components/CaseStudies"
 import Technology from "./components/Technology"
 import TopClients from "./components/TopClient"
 import Offer from "./components/Offer"
+import Footer from "./components/Footer"
+import MainNav from "./components/MainNav"
 
 function App() {
 
   return (
     <>
       <NavBar />
-      <MainNav />
+      <MainNav/>
       <Home />
       <Aboutus />
       <Industries />
@@ -23,6 +24,7 @@ function App() {
       <CaseStudies/>
       <Technology/>
       <TopClients/>
+      <Footer/>
      
     </>
   );
