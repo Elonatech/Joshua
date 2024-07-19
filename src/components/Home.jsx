@@ -1,33 +1,34 @@
 import React from "react";
-import { HiOutlineArrowSmRight } from "react-icons/hi";
-
+import { FaArrowRight } from "react-icons/fa";
 
 const Home = () => {
   return (
-    <div className="p-2">
-      <div className="overlay">
-        <video className="object-cover h-[600px] w-[screen] " autoPlay loop muted>
-          <source
-            src="https://res.cloudinary.com/dny7tqd0d/video/upload/v1720457608/Circuit-27725_xvfck7.mp4"
-            type="video/mp4"
-          />
-        </video>
-      </div>
-
-      <div className="content space-y-2">
-        <h1 className="font-bold text-5xl">
-          We Provide Comprehensive IT solutions that makes businesses stand out{" "}
+    <div className="relative w-full h-[80vh] overflow-hidden bg-[rgba(2,_23,_109,_0.656)]">
+      <video
+        className="absolute top-[0] left-[0] w-full h-full object-cover"
+        autoPlay
+        loop
+        muted
+      >
+        <source
+          src="https://res.cloudinary.com/dny7tqd0d/video/upload/v1720457608/Circuit-27725_xvfck7.mp4"
+          type="video/mp4"
+        />
+      </video>
+      <div className="absolute top-2/4 left-2/4 -translate-x-1/2 -translate-y-1/2 text-center text-[white] pt-48">
+        <h1 className="mb-[20px] text-3xl font-semibold">
+          We provide comprehensive IT solutions that makes businesses standout
         </h1>
-        <p className="text-xl">
-          We are a team of IT experts who help you transform and scale your
-          organizations{" "}
+        <p className="mb-[30px] text-xl text-white w-[800px]">
+          We’re a team of IT experts who help you transform and scale your
+          organization
         </p>
-       
-          <button className="m-10 p-5 border bg-blue-400 rounded-md border-blue-400 flex items-center font-bold">
-          <HiOutlineArrowSmRight size={20} />
-          IT Solutions and Services
-          </button>
-        
+        <button className="relative bg-[#0693e3] text-[white] border-[none] px-[40px] py-[20px] text-[1.5rem] cursor-pointer inline-block items-center [transition:all_0.3s_ease] hover:bg-[#2397da] hover:px-[28px] hover:py-[13px]">
+          <span className="text-[1.5rem]">
+            {/* <FaArrowRight className="text-sm absolute  " /> */}
+          </span>{" "}
+         ➡️  IT SOLUTIONS AND SERVICES
+        </button>
       </div>
     </div>
   );

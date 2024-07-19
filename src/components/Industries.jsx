@@ -3,14 +3,16 @@ import React from "react";
 const Industries = () => {
   return (
     <div className="p-4 lg:px-[12rem]">
-      <div className=" text-start px-40">
-        <h1 className="font-bold text-6xl ">Industries We Serve</h1>
+      <div className=" text-start md:px-40">
+        <span className="font-bold text-4xl  ">
+          Industries We Serve
+        </span>
         <p>
           Perfect Blend of Innovation & Ideation Of Solutions For Every
           Industry.{" "}
         </p>
       </div>
-      <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 lg:p-40 ">
+      <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 lg:p-40  flex-col items-center justify-between">
         <div className="hover:scale-110 duration-500  border-8 m-5 flex flex-col items-center border-[#ffffff] shadow-lg bg-[#ffffff] rounded-md w-48 h-40">
           <img
             src="https://speedlinkng.com/wp-content/uploads/2022/08/online-shop.png"

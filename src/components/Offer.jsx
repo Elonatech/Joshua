@@ -16,12 +16,12 @@ const Offer = () => {
           We offer a wide range of specialized services designed to meet your
           goals
         </p>
-        <div className="flex items-stretch ">
+        <div className="flex items-stretch justify-around">
           <div className="flex flex-col w-full">
             {services.map((service) => (
               <div
                 key={service}
-                className={` border p-4 border-[#ef1821] my-2 mx-0 h-auto w-full sm:w-1/2 rounded-r-3xl  ${
+                className={` border p-4 border-[#ef1821] my-2 mx-0 h-auto w-full  sm:w-1/2 rounded-r-3xl  ${
                   isActive === service ? "bg-[#ef1821] text-white" : ""
                 }`}
                 onMouseEnter={() => setIsActive(service)}
@@ -30,13 +30,13 @@ const Offer = () => {
               </div>
             ))}
           </div>
-          <div className="hidden sm:flex flex-col sm:w-1/2">
+          <div className="hidden bg-gradient-to-b from-[#D2060FD6] to-[#062CD1D1]  sm:flex flex-col sm:w-full">
             <div className="flex justify-around ">
               <button className=" flex justify-between items-center bg-red-600 text-white py-4 px-6 rounded-lg cursor-pointer">
                 Who we do &nbsp; <BiLogoTelegram className="" />{" "}
               </button>
             </div>
-            <div className="relative px-[50px] py-[20px] rounded-[10px] w-full text-[white] mt-[20px] -ml-20 leading-[2.8em] h-[80%] flex-col justify-between before:content-[''] before:absolute before:top-[0] before:left-[0] before:right-[0] before:bottom-[0] before:bg-[linear-gradient(to_bottom,_rgba(248,_3,_3,_0.5),_rgba(4,_15,_229,_0.7))] before:rounded-[10px]">
+            <div className="relative px-[50px] py-[20px] rounded-[10px] w-full text-[white] mt-[20px]  leading-[2.8em] h-[80%] flex-col justify-between before:content-[''] before:absolute before:top-[0] before:left-[0] before:right-[0] before:bottom-[0] before:bg-[linear-gradient(to_bottom,_rgba(248,_3,_3,_0.5),_rgba(4,_15,_229,_0.7))] before:rounded-[10px]">
               <div className="relative flex flex-col justify-between">
                 <h3>{serviceDetails[isActive].title}</h3>
                 <ul className="">

@@ -16,26 +16,32 @@ const MainNav = () => {
       </div>
       <div className="flex items-center justify-between w-2/4 ">
         <div className="nav-section p-4 gap-2 mx-auto">
-          <ul className="hidden lg:flex md:items-center ">
+          <ul className="hidden lg:flex md:items-center hover:border hover:border-b-2 hover:border-red-500 hover:border-x-0 hover:border-t-0">
             <li className="relative group flex justify between items-center space-x-4 ">
-              <p className="text-lg hover:text-red-500 ">Home</p>{" "}
-              <div className="dropdown-nav flex justify-between items-center">
+              <p className="  hover:text-red-500 hover:border hover:border-t-2 hover:border-x-0 hover:border-b-0 hover:border-red-500 dropdown-nav flex justify-between items-center ">
+                Home
+              </p>{" "}
+              
+              <div className=" hover:text-red-500 hover:border hover:border-t-2 hover:border-x-0 hover:border-b-0 hover:border-red-500 dropdown-nav flex justify-between items-center">
                 <span>About us</span>
                 <RiArrowDropDownLine />{" "}
               </div>{" "}
-              <div className="dropdown-nav flex justify-between items-center">
+              <div className=" hover:text-red-500 hover:border hover:border-t-2 hover:border-x-0 hover:border-b-0 hover:border-red-500 dropdown-nav flex justify-between items-center">
                 <span>Case Study</span>
                 <RiArrowDropDownLine />{" "}
               </div>{" "}
-              <div className="dropdown-nav flex justify-between items-center">
+              <div className=" hover:text-red-500 hover:border hover:border-t-2 hover:border-x-0 hover:border-b-0 hover:border-red-500 dropdown-nav flex justify-between items-center">
                 <span>Products</span>
                 <RiArrowDropDownLine />{" "}
               </div>{" "}
-              <div className="dropdown-nav flex justify-between items-center">
+              <div className=" hover:text-red-500 hover:border hover:border-t-2 hover:border-x-0 hover:border-b-0 hover:border-red-500 dropdown-nav flex justify-between items-center">
                 <span>Resources</span>{" "}
               </div>
-              <FaSearch size={15} />{" "}
-              <button className="bg-red-500 text-white p-4 ml-[20px] border rounded-md ">
+              <FaSearch
+                className="hover:scale-105 hover:text-red-500 delay-100"
+                size={15}
+              />{" "}
+              <button className="bg-red-500 hover:bg-blue-500 hover:ease-linear delay-100 text-white p-4 ml-[20px] border rounded-md ">
                 Get in touch{" "}
               </button>{" "}
             </li>

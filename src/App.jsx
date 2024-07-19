@@ -1,4 +1,4 @@
-import NavBar from "./components/NavBar"
+import Nav from "./components/NavBar"
 import Home from "./components/Home"
 import Aboutus from "./components/Aboutus"
 import Industries from "./components/Industries"
@@ -8,20 +8,21 @@ import Technology from "./components/Technology"
 import TopClients from "./components/TopClient"
 import Offer from "./components/Offer"
 import Footer from "./components/Footer"
-import MainNav from "./components/MainNav"
-
+import MainNav from "./components/Nav-Bar"
+import Navbar from "./components/MyNav"
 function App() {
-
+  
   return (
     <>
-      <NavBar />
+      <Nav />
+      {/* <Navbar/> */}
       <MainNav/>
       <Home />
-      <Aboutus />
       <Industries />
-      <Offer/>
-      <Products />
       <CaseStudies/>
+      <Aboutus />
+       <Offer/>
+      <Products />
       <Technology/>
       <TopClients/>
       <Footer/>
