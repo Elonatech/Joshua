@@ -1,4 +1,4 @@
-import Nav from "./components/NavBar"
+
 import Home from "./components/Home"
 import Aboutus from "./components/Aboutus"
 import Industries from "./components/Industries"
@@ -8,14 +8,14 @@ import Technology from "./components/Technology"
 import TopClients from "./components/TopClient"
 import Offer from "./components/Offer"
 import Footer from "./components/Footer"
-import MainNav from "./components/Nav-Bar"
-import Navbar from "./components/MyNav"
+import MainNav from "./components/MainNav"
+import TopNav from "./components/Topnav"
+
 function App() {
   
   return (
     <>
-      <Nav />
-      {/* <Navbar/> */}
+      <TopNav/>
       <MainNav/>
       <Home />
       <Industries />

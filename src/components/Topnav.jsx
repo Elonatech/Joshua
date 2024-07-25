@@ -3,7 +3,7 @@ import { TiSocialFacebook, TiSocialInstagram, TiSocialLinkedin, TiSocialTwitter 
 import { FaPhoneAlt } from "react-icons/fa";
 import { IoMail } from "react-icons/io5";
 
-const Nav = () => {
+const TopNav = () => {
   return (
     <div className="hidden sm:flex bg-gradient-to-r from-[#ef1821]  to-[#0274be] h-10  justify-between">
       <div className="column1 w-1/2 p-2">
@@ -40,7 +40,7 @@ const Nav = () => {
   );
 }
 
-export default Nav
+export default TopNav
 
 
 

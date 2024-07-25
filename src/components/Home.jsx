@@ -3,9 +3,9 @@ import { FaArrowRight } from "react-icons/fa";
 
 const Home = () => {
   return (
-    <div className="relative w-full h-[80vh] overflow-hidden bg-[rgba(2,_23,_109,_0.656)]">
+    <div className="w-full h-[80vh] overflow-hidden bg-[rgba(2,_23,_109,_0.656)]">
       <video
-        className="absolute top-[0] left-[0] w-full h-full object-cover"
+        className="top-[0] left-[0] w-full h-full object-cover"
         autoPlay
         loop
         muted
