@@ -15,19 +15,19 @@ const Home = () => {
           type="video/mp4"
         />
       </video>
-      <div className="absolute top-2/4 left-2/4 -translate-x-1/2 -translate-y-1/2 text-center text-[white] pt-48">
-        <h1 className="mb-[20px] text-3xl font-semibold">
+      <div className="absolute top-2/4 left-2/4 -translate-x-1/2 -translate-y-1/2 text-center text-[white] pt-48 ">
+        <h1 className="">
           We provide comprehensive IT solutions that makes businesses standout
         </h1>
-        <p className="mb-[30px] text-xl text-white w-[800px]">
+        <p className="">
           We’re a team of IT experts who help you transform and scale your
           organization
         </p>
-        <button className="relative bg-[#0693e3] text-[white] border-[none] px-[40px] py-[20px] text-[1.5rem] cursor-pointer inline-block items-center [transition:all_0.3s_ease] hover:bg-[#2397da] hover:px-[28px] hover:py-[13px]">
+        <button className="">
           <span className="text-[1.5rem]">
             {/* <FaArrowRight className="text-sm absolute  " /> */}
           </span>{" "}
-         ➡️  IT SOLUTIONS AND SERVICES
+         IT SOLUTIONS AND SERVICES
         </button>
       </div>
     </div>

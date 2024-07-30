@@ -8,7 +8,7 @@ const Technology = () => {
   return (
     <div className="bg-[#333] p-[12rem] text-white text-center">
       <h2 className="text white p-2 m-2 font-semibold text-xl">Technology stack</h2>
-      {/* <div>
+      
         <GoDotFill className="text-[rgb(12, 91, 210)]" />
         <GoDotFill className="text-[rgb(12, 91, 210)]" />
         <GoDotFill className="text-[rgb(12, 91, 210)]" />
@@ -16,9 +16,7 @@ const Technology = () => {
 
         
  
-   
-   
-      </div> */}
+     
       <Swiper
         spaceBetween={20}
         slidesPerView={3}
