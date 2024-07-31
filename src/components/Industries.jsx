@@ -2,7 +2,7 @@ import React from "react";
 
 const Industries = () => {
   return (
-    <div className="p-4 lg:p-40 ">
+    <div className="p-4 lg:px-40 ">
       <div className=" text-start md:px-40">
         <span className="font-bold text-4xl ">Industries We Serve</span>
         <p>
