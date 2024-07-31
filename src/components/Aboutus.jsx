@@ -6,24 +6,22 @@ import {IoMdPaperPlane} from "react-icons/io"
 
 const Aboutus = () => {
   return (
-    <div className="lg:px-64 lg:pt-54 p-4 ">
-      <div className="md:flex md:items-center md:justify-between">
-        <div className="w-full md:w-1/2 my-4 ">
+    <div className="lg:px-64  lg:pt-54 p-4 ">
+      <div className="w-full text-center lg:flex lg:justify-between">
+        <div className="w-full md:w-1/2 my-4  ">
           <h1 className="text-red-600 uppercase font-bold  ">
             speedlink hi-tech solutions limited
           </h1>
-          <span className="font-bold text-6xl">
-            A Complete Solution IT Provider
-          </span>
-          <h1>
+      
+          <p>
             Speedlink Hi-Tech Solutions Limited is a Nigerian leading IT systems
             provider, known for providing clients with Enterprise world-class
             solutions addressing their local business needs. We deliver
             positive, rapid and the best return on investment “ROI” solutions
             for our customers.
-          </h1>
+          </p>
           <div className="my-4 flex items-center  text-white">
-            <button className="bg-red-600 w-40 h-20 p-4 rounded-md">
+            <button className="bg-red-600 w-40 md:w-80 sm:h-16 h-15 sm:p-4 p-2 rounded-md">
               Who are we
             </button>
             <IoMdPaperPlane />
@@ -37,13 +35,13 @@ const Aboutus = () => {
           />
         </div>
       </div>
-      <div className=" md:flex mt-20 bg-[#02176d] p-4 md:items-center md:justify-between w-full text-white">
+      <div className="lg:flex mt-20 bg-[#02176d] p-4 lg:items-center lg:justify-between w-full text-white">
         <img
           src="https://speedlinkng.com/wp-content/uploads/2024/02/pearson-vue-1.gif"
           className=" w-full md:w-[20%] object-cover border rounded-md"
           alt=""
         />
-        <div className="md:p-20 p-2 w-full md:w-[60%] md:gap-y-10 ">
+        <div className="lg:p-20 p-2 w-full lg:w-[60%] lg:gap-y-10 ">
           <h1 className="font-bold text-3xl ">
             {" "}
             Pursue Your Certification Dreams with Speedlink!
@@ -55,7 +53,7 @@ const Aboutus = () => {
             potential.
           </span>
         </div>
-        <button className="bg-red-500 text-white w-full md:w-[20%] h-16 border rounded-md  border-red-500 ">
+        <button className="bg-red-500 text-white w-full md:w-[20%] h-12  border rounded-md  border-red-500 ">
           Get in Certified{" "}
         </button>{" "}
       </div>

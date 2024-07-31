@@ -28,7 +28,7 @@ const Footer = () => {
   };
 
   return (
-    <footer className="w-full min-h-[70vh] flex justify-stretch bg-[#0a0e27] text-[#ffffff] p-[20px]">
+    <footer className="w-full min-h-[70vh] lg:flex justify-stretch bg-[#0a0e27] text-[#ffffff] p-[20px]">
       <div className="flex-[1] mx-[10px] my-[0] p-[20px] bg-[#1a2238] rounded-[10px] h-[fit-content]">
         <img
           src="https://speedlinkng.com/wp-content/uploads/2022/09/speedlink-logo-footer.png"

@@ -19,7 +19,7 @@ function MainNav() {
         <Link to="/" className="p-2">
           <img src="https://speedlinkng.com/wp-content/uploads/2023/06/1-223x93.png" />
         </Link>
-        <ul className="hidden md:flex justify-between items-center space-x-4 mx-5">
+        <ul className="hidden sm:flex justify-between items-center space-x-4 mx-5">
           {navItems.map((item) => {
             if (item.title === "Products") {
               return (
@@ -42,14 +42,14 @@ function MainNav() {
           })}
         </ul>
 
-        <IoMenuSharp onClick={toggleMenu} className="md:hidden " />
+        <IoMenuSharp onClick={toggleMenu} className="sm:hidden " />
       </nav>
 
       {/* menu */}
 
       <div
         className={
-          menu ? "'lg:hidden fixed h-full w-full bg-black/40 right-0 top-0" : ""
+          menu ? "md:hidden fixed h-full w-full bg-black/40 right-0 top-0" : ""
         }
       >
         <div
@@ -61,7 +61,7 @@ function MainNav() {
         >
           <div className="flex justify-between items-center">
             <div className="w-1/2"></div>{" "}
-            <FaTimes onClick={toggleMenu} className="md:hidden mx-4 my-5" />
+            <FaTimes onClick={toggleMenu} className="sm:hidden mx-4 my-5" />
           </div>
 
           <ul className="px-5">
@@ -70,13 +70,10 @@ function MainNav() {
                 return (
                   <li
                     key={item.id}
-                    className= "border hover:border-b-2 hover:border-b-red-600 "
+                    className="border hover:border-b-2 hover:border-b-red-600 "
                     onClick={() => setDropdown(true)}
                     onMouseLeave={() => setDropdown(false)}
-                  >
-                    <Link to={item.path}>{item.title}</Link>
-                    {dropdown && <Dropdown />}
-                  </li>
+                  ></li>
                 );
               }
               return (

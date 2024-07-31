@@ -10,7 +10,7 @@ const Products = () => {
         </h1>
         <span>Bringing speed to your business</span>
       </div>
-      <div className=""></div>
+      
       <div className="hover:scale-105 duration-500 grid grid-cols-1 md:grid-cols-3 p-8 gap-4 ">
         <img
           className=" object-cover md:p-4"

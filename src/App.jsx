@@ -15,18 +15,17 @@ function App() {
   
   return (
     <>
-      <TopNav/>
-      <MainNav/>
+      <TopNav />
+      <MainNav />
       <Home />
       <Industries />
-      <CaseStudies/>
+      <CaseStudies />
       <Aboutus />
-       <Offer/>
+      <Offer />
       <Products />
-      <Technology/>
-      <TopClients/>
-      <Footer/>
-     
+      <Technology />
+      <TopClients />
+      <Footer/> 
     </>
   );
 }

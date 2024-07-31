@@ -1,13 +1,12 @@
 import React from "react";
 import { FaPaperPlane } from "react-icons/fa6";
-import { IoIosArrowForward,  } from "react-icons/io";
-
+import { IoIosArrowForward } from "react-icons/io";
 
 const CaseStudies = () => {
   return (
-    <div className="lg:px-64 p-4">
-      <h1 className="font-bold text-6xl">Case Studies</h1>
-      <div className="sm:flex p-2 place-items-end justify-between">
+    <div className="p-2  lg:p-60">
+      <h1 className="font-bold text-3xl md:text-6xl ">Case Studies</h1>
+      <div className="sm:flex p-2 lg:place-items-end lg:justify-between items-center" >
         <span
           className="w-1/2 
         "
@@ -19,9 +18,9 @@ const CaseStudies = () => {
           See more of our works <FaPaperPlane />
         </button>
       </div>
-      <div className="column-1 sm:flex items-center py-10">
-        <div className="p-10 w-[50%] bg-transparent bg-gradient-to-b from-[#F9EDED] to-[#F8CCD7] rounded-lg h-[50vh]">
-          <div className="py-4">
+      <div className="column-1 lg:flex items-center lg:py-10">
+        <div className="p-10 w-[100%] h-full bg-transparent bg-gradient-to-b from-[#F9EDED] to-[#F8CCD7] rounded-lg ">
+          <div className="">
             <h1 className="text-3xl font-bold py-4">
               Integration of a secured and reliable examination platform
             </h1>
@@ -37,19 +36,19 @@ const CaseStudies = () => {
           </button>
         </div>
 
-        <div className="img w-[50%]">
+        <div className="img w-[100%] mt-2">
           <img
             src="https://speedlinkng.com/wp-content/uploads/elementor/thumbs/pexels-christina-morillo-1181244-qlr0q7d26yjle1wxvxacrmfqfvrovgbuxrrizsl79c.jpg"
             alt=""
           />
         </div>
       </div>
-      <div className=" column-2 sm:flex items-center py-10">
-        <div className="img w-[50%]">
+      <div className="column-2 lg:p-20 lg:flex items-center md:py-10">
+        <div className="img w-[100%] mb-2">
           <img src="https://speedlinkng.com/wp-content/uploads/elementor/thumbs/training-comressesd-scaled-qlr0q7d26yjle1wxvxacrmfqfvrovgbuxrrizsl79c.webp" />
         </div>
-        <div className="p-10 w-[50%] bg-transparent bg-gradient-to-b from-[rgb(228,247,252)] to-[rgb(183,229,241)] rounded-lg h-[50vh]">
-          <div className="py-4">
+        <div className="p-20 w-[100%] bg-transparent bg-gradient-to-b from-[rgb(228,247,252)] to-[rgb(183,229,241)] rounded-lg h-full">
+          <div className="">
             <h1 className="text-3xl font-bold py-4">
               Hybrid Learning Facility
             </h1>
@@ -60,7 +59,7 @@ const CaseStudies = () => {
               visual communication….
             </span>
           </div>
-          <button className="border p-2 bg-black text-white font-bold flex items-center justify-between">
+          <button className="border py-2 bg-black text-white font-bold flex items-center justify-between">
             View Case study <IoIosArrowForward />
           </button>
         </div>

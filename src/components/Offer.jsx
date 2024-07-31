@@ -10,18 +10,18 @@ const Offer = () => {
 
   return (
     <div className="bg-[#EFEAEAA6]">
-      <div className=" my-0 mx-auto w-[1200px] p-4">
+      <div className=" my-0  p-4">
         <h2 className="text-4xl py-4 font-bold">Services we offer</h2>
         <p className="py-2">
           We offer a wide range of specialized services designed to meet your
           goals
         </p>
-        <div className="flex items-stretch justify-around">
+        <div className="lg:flex lg:items-stretch lg:justify-around">
           <div className="flex flex-col w-full">
             {services.map((service) => (
               <div
                 key={service}
-                className={` border p-4 border-[#ef1821] my-2 mx-0 h-auto w-full  sm:w-1/2 rounded-r-3xl  ${
+                className={` border p-4 border-[#ef1821] my-2 mx-0 h-auto w-full  sm:w-full rounded-r-3xl  ${
                   isActive === service ? "bg-[#ef1821] text-white" : ""
                 }`}
                 onMouseEnter={() => setIsActive(service)}
@@ -30,7 +30,7 @@ const Offer = () => {
               </div>
             ))}
           </div>
-          <div className="hidden bg-gradient-to-b from-[#D2060FD6] to-[#062CD1D1]  sm:flex flex-col sm:w-full">
+          <div className="bg-gradient-to-b from-[#D2060FD6] to-[#062CD1D1]  sm:flex flex-col sm:w-full">
             <div className="flex justify-around ">
               <button className=" flex justify-between items-center bg-red-600 text-white py-4 px-6 rounded-lg cursor-pointer">
                 Who we do &nbsp; <BiLogoTelegram className="" />{" "}

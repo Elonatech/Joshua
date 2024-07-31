@@ -5,7 +5,7 @@ import "swiper/swiper-bundle.css";
 
 const TopClients = () => {
   return (
-    <div className="px-40 p-20 text-center">
+    <div className="lg:px-40 lg:p-20 text-center">
       <h2 className="mb-5 font-bold">Our Top Clients</h2>
 
       <p className="m-2 p-2 font-semibold text-xl">Meet our happy clients</p>

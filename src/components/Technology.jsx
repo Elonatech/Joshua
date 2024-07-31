@@ -6,17 +6,18 @@ import { BsDashLg } from "react-icons/bs";
 
 const Technology = () => {
   return (
-    <div className="bg-[#333] p-[12rem] text-white text-center">
-      <h2 className="text white p-2 m-2 font-semibold text-xl">Technology stack</h2>
-      
+    <div className="bg-[#333] lg:p-[12rem] text-white text-center">
+      <h2 className="text white p-2 m-2 font-semibold text-xl">
+        Technology stack
+      </h2>
+
+      <div className="flex items-center place-content-center">
         <GoDotFill className="text-[rgb(12, 91, 210)]" />
         <GoDotFill className="text-[rgb(12, 91, 210)]" />
         <GoDotFill className="text-[rgb(12, 91, 210)]" />
         <BsDashLg className="text-[4rem] align-bottom text-blue-400" />
+      </div>
 
-        
- 
-     
       <Swiper
         spaceBetween={20}
         slidesPerView={3}
@@ -37,7 +38,7 @@ const Technology = () => {
             spaceBetween: 20
           }
         }}
-        className="w-[1200px] m-auto flex justify-between items-center gap-5 "
+        className="lg:w-[1200px] m-auto flex justify-between items-center gap-5 "
       >
         <SwiperSlide>
           <img
